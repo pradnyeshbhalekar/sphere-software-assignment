@@ -1,0 +1,31 @@
+id,address,building_name,unit_number,street,area,city,pin_code,flag,reason
+A01,"Crest Tower.K 74 Opp Harbour View.3, Cuffe Parade, Mumbai 400005",Crest Tower.K,,,Cuffe Parade,Mumbai,400005,yes,possible unit identifier(s) '74' found but could not be confidently isolated as unit_number
+A02,"304-Sameer tower/ Hill crest road bandra west, Mumbai 400050",304-Sameer tower/,,Hill crest road,Bandra West,Mumbai,400050,no,
+A03,Harbour View 1 B Tower Flat no.57 Cuffe Parade Mumbai 400005.,Harbour View 1 B Tower,Flat no.57,,Cuffe Parade,Mumbai,400005,no,
+A04,"B-4702 Aurora Kalpa-Park lower parel, Mumbai 400013",Aurora Kalpa-Park,B-4702,,Lower Parel,Mumbai,400013,no,
+A05,"Harbour View 1 Flat no.104 A Cuffe Parade, Mumbai 400005",Harbour View,Flat no.104 A,,Cuffe Parade,Mumbai,400005,no,
+A06,"Flat # 214, Marigold Apartment, R.K. Bhosle Road, cuff parade, Mumbai -400005",Marigold Apartment,Flat # 214,R.K. Bhosle Road,Cuffe Parade,Mumbai,400005,no,
+A07,"Crest Tower A 18St Floor flat no Cuffe Parade, Mumbai 400005",Crest Tower,,,Cuffe Parade,Mumbai,400005,no,
+A08,"Crest Tower.A 11th floor Cuffe parade, Mumbai 400005",Crest Tower.A,,,Cuffe Parade,Mumbai,400005,no,
+A09,"Flat No 208 B Nirvana Apt 1 Worli, Mumbai 400030",Nirvana Apt,Flat No 208 B,,Worli,Mumbai,400030,yes,possible unit identifier(s) '1' found but could not be confidently isolated as unit_number
+A10,"Nirvana ,IC,/317,Lower Parel, Mumbai 400009",Nirvana,IC/317,,Lower Parel,Mumbai,400009,no,
+B01,"Emerald Heights A1203, JVN Nagar, MHADA, Andheri West, Mumbai 400053",Emerald Heights,A1203,,Andheri West,Mumbai,400053,no,
+B02,Anjali CHS 503 5th Floor Near Anand Nagar Lane Opp.Metro Mart Chembur Mumbai-71.,Anjali CHS,,,Chembur,Mumbai,,yes,"pincode incomplete - only trailing digits '71' given, not enough to safely reconstruct a 6-digit code; possible unit identifier(s) '-71, 503' found but could not be confidently isolated as unit_number"
+B03,"B-1603, Oakridge Main St., Hiranandani, Powai, Mumbai 400076",,B-1603,Oakridge Main St,Hiranandani,Mumbai,400076,yes,no building name identifiable
+B04,"Sarita Building Flat No: 72 7th Floor next to Yb Kamat, Nariman Point, Mumbai 400021",Sarita Building,Flat No: 72,,Nariman Point,Mumbai,400021,no,
+B05,"A-706 Orchid Forest Street Hiranandani Powai., Mumbai 400076",Orchid,A-706,Forest Street,Powai,Mumbai,400076,no,
+B06,"B-1302 MAJESTIC HE Nr. Goregaon Bus De Goregaon West, Mumbai 400104",,B-1302,,Goregaon,Mumbai,400104,yes,no building name identifiable
+B07,"1104 Skyline Sunrise opp Koli Gali Andheri East, Mumbai 400093",Skyline Sunrise,,,Andheri East,Mumbai,400093,yes,possible unit identifier(s) '1104' found but could not be confidently isolated as unit_number
+B08,"Flat no. 902 k wing raheja Horizon Raheja Vihar powai, Mumbai 400072",raheja Horizon Raheja Vihar,Flat no. 902 k,,Powai,Mumbai,400072,no,
+B09,"17C Flat 22 Nalanda Tapovan Caves Road, Andheri East, Mumbai 400093",Nalanda,Flat 22; 17C,Tapovan Caves Road,Andheri East,Mumbai,400093,no,
+B10,"Sea Havan 3 rd flo Building No. 6 Harbur Road Near Radio club, Mumbai 400005",Sea Havan flo,,Harbur Road,,Mumbai,400005,yes,area/locality missing
+C01,"47, mumbai",,,,,Mumbai,,yes,pincode missing - no 6-digit code found in the text; no building name identifiable; area/locality missing; possible unit identifier(s) '47' found but could not be confidently isolated as unit_number; too few identifiable tokens (1) to reliably parse
+C02,"Worli, Mumbai 400013",,,,Worli,Mumbai,400013,yes,no building name identifiable; too few identifiable tokens (1) to reliably parse
+C03,"605 D wing Bldg no. 31 MHADA chandivali, Mumbai 400072",MHADA,D wing,,Chandivali,Mumbai,400072,yes,possible unit identifier(s) '605' found but could not be confidently isolated as unit_number
+C04,"C 12 Building No 3 Near Directors Bung IIT Campus, Powai, Mumbai 400076",C 12 Building,,,Powai,Mumbai,400076,no,
+C05,"A/408 Everst Crys Keshavbaug Lane Nr Ashford Colon, Santacruz west, Mumbai",Everst Crys,A/408,Keshavbaug Lane,Santacruz West,Mumbai,,yes,pincode missing - no 6-digit code found in the text
+C06,"Harbour View.1 A Flat No.46, Cuffe Parade, Mumbai 400005",Harbour View.1,Flat No.46,,Cuffe Parade,Mumbai,400005,no,
+C07,"T2-1804 K & R Sapphire isle Powai Brightpath Technologies Pvt Ltd. C-2215-18 Silverline Garden Estate, Mumbai",,T2-1804; C-2215-18,,Powai,Mumbai,,yes,pincode missing - no 6-digit code found in the text; multiple addresses/entities appear jammed into one field - building name could not be reliably isolated; no building name identifiable
+C08,"E wing 1507 vasnt splendr jvlr, Jogeshwar West, Mumbai",vasnt splendr jvlr,E wing,,Jogeshwari West,Mumbai,,yes,pincode missing - no 6-digit code found in the text; possible unit identifier(s) '1507' found but could not be confidently isolated as unit_number
+C09,"07 3rd Floor of a Building Nova Kiran CHSL Road Landmark: Frosty Cones Ice Cream Lane, Mahim, Mumbai 400016",Nova,,Kiran CHSL Road,Mahim,Mumbai,400016,yes,landmark text present (Landmark: Frosty Cones Ice Cream Lane) - building name may be incomplete; possible unit identifier(s) '07' found but could not be confidently isolated as unit_number
+C10,"Flat 9 4th floor The Lighthouse Rani Tara road. Opp sachivalaya Gymkhana Churchgate, Mumbai",Lighthouse,Flat 9,Rani Tara road.,Churchgate,Mumbai,,yes,pincode missing - no 6-digit code found in the text; landmark text present (Opp sachivalaya Gymkhana) - building name may be incomplete
